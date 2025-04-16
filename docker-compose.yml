@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+  jupyter:
+    container_name: spark
+    command: /home/glue_user/jupyter/jupyter_start.sh
+    environment:
+      - DISABLE_SSL=true            
+    image: amazon/aws-glue-libs:glue_libs_3.0.0_image_01
+    ports:
+      - '8888:8888'
+    restart: always
+    volumes:
+      - ./pyspark-data:/home/glue_user/workspace/jupyter_workspace/
