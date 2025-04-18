@@ -27,3 +27,12 @@ The solution uses technologies (Docker, Python, Spark). The architecture is base
 5. Analysis Questions:
 
 - The answers to these questions were developed in a notebook called "analysis_questions" in **/scripts**.
+
+## Run locally
+
+1. Install docker;
+2. Unzip the project;
+3. With a prompt of your choice, run the command below in the same directory as the file "docker-compose.yml":
+    - `docker-compose up -d`
+4. If everything is OK, you can open Jupyter Notebook in your browser here:
+    - `localhost:8888`
