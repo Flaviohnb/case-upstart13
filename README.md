@@ -18,11 +18,11 @@ The solution uses technologies (Docker, Python, Spark). The architecture is base
 
 3. Product Master Transformations:
 
-- The publish_product is saved in the **/datalake/enriched/** directory in parquet format, by notebook in **/scripts** named "cleanedToEnriched_publishProduct".
+- The publish_product table is saved in the **/datalake/enriched/** directory in parquet format, by notebook in **/scripts** named "cleanedToEnriched_publishProduct".
 
 4. Sales Order Transformations:
 
-- The publish_orders is saved in the **/datalake/enriched/** directory in parquet format, by notebook in **/scripts** named "cleanedToEnriched_publishOrders".
+- The publish_orders table is saved in the **/datalake/enriched/** directory in parquet format, by notebook in **/scripts** named "cleanedToEnriched_publishOrders".
 
 5. Analysis Questions:
 
